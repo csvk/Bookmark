@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #1E5CB5;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #1E5CB5;
     text-shadow: none;
 }
 
@@ -70,18 +70,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #3386FF;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #3386FF;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #1884A4;
 }
 
 .title {
@@ -108,7 +108,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #3386FF;
 }
 
 nav a:hover,
@@ -154,7 +154,27 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+a {
+    color: #8f540d;
+}
 
+a:hover {
+    color: #d39447;
+}
+
+a:visited {
+    color: #0E4251;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1E5373; 
+}
+   
+.main aside h3, footer h3 {
+    color: white;
+}
+ 
+   
 
 
 
